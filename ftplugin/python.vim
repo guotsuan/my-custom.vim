@@ -22,7 +22,7 @@ setlocal rnu
 
 setlocal comments=b:#
 
-python << EOF
+python3 << EOF
 import sys, vim, os
 
 curpath = vim.eval("getcwd()")
